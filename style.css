@@ -6,7 +6,7 @@
     height: 450px;
     width: 750px;
     border: 2px solid skyblue;
-    border-radius: 5px;
+    border-radius: 40px;
     background-color: aliceblue;
     margin: auto;
     margin-top: 20px;
@@ -15,6 +15,8 @@
     align-content: center;
     justify-content: center;
     grid-gap: 20px;
+    text-align: right;
+    font-size: larger;
 }
 .items{
     height: 50px;
@@ -22,4 +24,12 @@
     border: none;
     background-color:rgba(246, 210, 246, 0.483);
     box-shadow:2px 2px 2px 2px #00000064 , -2px -2px 2px 2px #00000064;
+    padding: 5px;
+    border-radius: 2px;
+   
+    
+}
+.items:hover{
+    background-color: rgba(255, 255, 176, 0.469);
+    cursor: pointer;
 }
